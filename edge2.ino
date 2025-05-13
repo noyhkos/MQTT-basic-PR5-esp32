@@ -1,8 +1,3 @@
-//ESP32 를 subscriber 로 동작 시키는 샘플코드
-//**wifi 환경에 따라 ssid, password 변경 **
-//**MQTT Broker server IP 변경**
-//.subscribe() : topic 에 따라 람다 함수 실행, 코드에서는 msg의 payload가 ON일 경우 ON 출력하도록함함
-
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
